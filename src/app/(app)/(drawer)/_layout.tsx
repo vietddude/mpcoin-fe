@@ -2,7 +2,7 @@ import React from "react";
 import { Drawer } from "expo-router/drawer";
 import { useNavigation } from "expo-router";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
-import SidebarMenu from "../../components/sidebar/sidebarMenu";
+import SidebarMenu from "@/src/components/sidebar/sidebarMenu";
 
 function CustomDrawerContent(props: any) {
   return <SidebarMenu {...props} />;

@@ -3,8 +3,8 @@ import React from "react";
 import { StyleSheet, View } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 
-import { Colors } from "@/constants/Colors";
-import { useColorScheme } from "@/hooks/useColorScheme";
+import { Colors } from "@/src/constants/Colors";
+import { useColorScheme } from "@/src/hooks/useColorScheme";
 
 export default function TabLayout() {
   const colorScheme = useColorScheme();
@@ -50,12 +50,6 @@ export default function TabLayout() {
         name="browser"
         options={{
           title: "Browser",
-        }}
-      />
-      <Tabs.Screen
-        name="login"
-        options={{
-          title: "Login",
         }}
       />
     </Tabs>

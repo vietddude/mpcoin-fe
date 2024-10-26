@@ -1,11 +1,11 @@
 import React from "react";
 import { SafeAreaView, StyleSheet } from "react-native";
-import { LoginScreen } from "@/components/LoginScreen"; // Adjust the path as necessary
+import SignupScreen from "@/src/components/auth/SignupScreen"; // Adjust the path as necessary
 
-export default function Login() {
+export default function Signup() {
   return (
     <SafeAreaView style={styles.container}>
-      <LoginScreen />
+      <SignupScreen />
     </SafeAreaView>
   );
 }
@@ -13,6 +13,6 @@ export default function Login() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "#1C1C1E",
   },
 });
